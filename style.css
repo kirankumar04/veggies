@@ -74,6 +74,16 @@ section nav .icon i {
 section nav .icon i:hover {
   color: green;
 }
+.fav-count {
+  position: fixed;
+  top: 16px;
+  right: 112px;
+  background: red;
+  color: white;
+  padding: 0 5px;
+  border-radius: 50%;
+  font-size: 12px;
+}
 
 section .main {
   display: flex;
@@ -320,7 +330,87 @@ section .main_btn:hover i {
   background: rgb(69, 174, 69);
   padding: 8px 10px;
   margin: 0 80px;
+  border-radius: 13px;
+  cursor: pointer;
   transition: 0.3s;
+}
+.menu_icon .menu_btn {
+  border-radius: 2px;
+}
+/* cart tab */
+
+.cart-tab {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 50rem;
+  height: 100vh;
+  background:beige;
+  inset: 0 -400px 0 auto;
+  z-index: 1000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transform: translateX(400px);
+  transition: 0.3s;
+  display: grid;
+  grid-template-rows: 70px 1fr 70px;
+}
+body.showCart .cart-tab {
+  inset: 0 0px 0 auto;
+}
+.cart-tab h1 {
+  padding: 20px;
+  margin: 0;
+  font-size: 300;
+}
+.cart-tab .btn {
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+}
+.cart-tab .btn button {
+  font-family: poppins;
+  font-size: 20px;
+  border: 2px solid black;
+  outline: none;
+  cursor: pointer;
+
+}
+
+.listCart .item:nth-child(even) {
+  background-color: rgb(111, 135, 127);
+}
+.item {
+  display: grid;
+  grid-template-columns: repeat(4, 65px);
+  grid-gap: 43px;
+  align-items: center;
+}
+
+.item .img img{
+  position: relative;
+  left: 12px;
+  height: 80px;
+  width: 80px;
+  border-radius: 29%;
+}
+.item .quantity {
+  display: flex;
+  gap: 5px;
+}
+.item .quantity span{
+    display: inline-block;
+    background-color: #99e499;
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.item .quantity span:nth-child(2){
+  background-color: #fff;
+  color: black;
+  background-color: beige;
+  cursor: pointer;
 }
 
 /*Order*/
