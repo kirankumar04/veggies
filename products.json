@@ -1,0 +1,74 @@
+[
+    {
+        "id" : 1,
+        "name" : "carrot",
+        "price" : 1.99,
+        "image" : "./images/carrot.jpeg"
+    },
+    {
+        "id" : 2,
+        "name" : "beetroot",
+        "price" : 2.99,
+        "image" : "./images/beetroot.jpg"
+    },
+    {
+        "id" : 3,
+        "name" : "brinjal",
+        "price" : 3.99,
+        "image" : "./images/brinjal.jpeg"
+    },
+    {
+        "id" : 4,
+        "name" : "broccoli",
+        "price" : 4.99,
+        "image" : "./images/broccoli.jpeg"
+    },
+    {
+        "id" : 5,
+        "name" : "cabbage",
+        "price" : 5.99,
+        "image" : "./images/cabbage.jpg"
+    },
+    {
+        "id" : 6,
+        "name" : "cappscium",
+        "price" : 6.99,
+        "image" : "./images/capsicum.png"
+    },
+    {
+        "id" : 8,
+        "name" : "cauliflower",
+        "price" : 8.99,
+        "image" : "./images/cauliflower.jpg"
+    },
+    {
+        "id" : 9,
+        "name" : "ladysfinger",
+        "price" : 9.99,
+        "image" : "./images/ladyfinger.jpg"
+    },
+    {
+        "id" : 10,
+        "name" : "onion",
+        "price" : 10.99,
+        "image" : "./images/onion.jpg"
+    },
+    {
+        "id" : 11,
+        "name" : "peas",
+        "price" : 11.99,
+        "image" : "./images/peas.jpg"
+    },
+    {
+        "id" : 12,
+        "name" : "popato",
+        "price" : 12.99,
+        "image" : "./images/potato.jpg"
+    },
+    {
+        "id" : 13,
+        "name" : "tomato",
+        "price" : 13.99,
+        "image" : "./images/tomato.jpg"
+    }
+]
